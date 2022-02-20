@@ -1,0 +1,74 @@
+.app {
+    margin: 10px auto;
+    max-width: 800px;
+}
+
+/* GoodsList + ShowGoods */
+.goods-list {
+    margin: 5px auto;
+    padding: 10px;
+    border: 1px dotted grey;
+}
+
+.goods-list::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.goods-item {
+    width: 40%;
+    margin: 10px 3%;
+    padding: 10px;
+    float: left;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.goods-item img {
+    max-width: 60%;
+}
+
+/* CartList */
+.cart-list {
+    margin: 5px auto;
+    padding: 10px;
+    border: 1px dotted green;
+}
+
+/* Cart */
+.cart-table {
+    table-layout: fixed;
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.cart-table th, td {
+    border: 1px solid lightgrey;
+}
+
+.cart-table th:nth-child(1) {
+    width: 45%;
+}
+
+.cart-table th:nth-child(2) {
+    width: 15%;
+}
+
+.cart-table th:nth-child(3) {
+    width: 15%;
+}
+
+.cart-table th:nth-child(4) {
+    width: 15%;
+}
+
+.cart-table th:nth-child(5) {
+    width: 10%;
+}
+
+.cart-table .total-sum-item {
+    text-align: right;
+}

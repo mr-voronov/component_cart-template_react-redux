@@ -1,0 +1,14 @@
+[
+    {
+        "articul": "284s",
+        "title": "Apple",
+        "cost": 25,
+        "image": "https://cdn4.iconfinder.com/data/icons/fruits-and-veggies-2/219/fruits-and-veggies-icons_apple-512.png"
+    },
+    {
+        "articul": "233s",
+        "title": "Lemon",
+        "cost": 30,
+        "image": "https://cdn4.iconfinder.com/data/icons/fruits-and-veggies-2/225/fruits-and-veggies-icons_lemon-512.png"
+    }
+]
