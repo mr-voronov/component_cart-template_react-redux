@@ -31,10 +31,14 @@ export default function CartList() {
         }
     }
 
+    const showCart = Object.keys(cart) == 0
+        ? <p>Nothing in cart yet</p>
+        : <ShowCart goods={goodsObj} cart={cart} />;
+
     return(
         <div className='cart-list' onClick={clickHandler}>
             <h2>CartList</h2>
-            <ShowCart goods={goodsObj} cart={cart} />
+            {showCart}
         </div>
     );
 }

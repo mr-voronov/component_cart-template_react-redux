@@ -16,9 +16,11 @@ export const cartSlice = createSlice({
         decremet: (state, data) => {
             const articul = data.payload;
 
-            if (state.value[articul] > 1) state.value[articul]--;
-
-            delete state.value[articul];
+            if (state.value[articul] > 1) {
+                state.value[articul]--;
+            } else {
+                delete state.value[articul];
+            }
         },
         remove: (state, data) => {
             const articul = data.payload;
