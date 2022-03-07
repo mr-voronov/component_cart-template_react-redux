@@ -1,0 +1,47 @@
+.app {
+    margin: 30px auto;
+    /* max-width: 800px; */
+}
+
+/* CartList */
+.cart-list {
+    margin: 5px auto;
+    padding: 10px;
+    border: 1px dotted green;
+}
+
+/* Cart */
+.cart-table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.cart-table th, td {
+    border: 1px solid lightgrey;
+}
+
+.cart-table th:nth-child(1) {
+    width: 40%;
+}
+
+.cart-table th:nth-child(2) {
+    width: 15%;
+}
+
+.cart-table th:nth-child(3) {
+    width: 15%;
+}
+
+.cart-table th:nth-child(4) {
+    width: 15%;
+}
+
+.cart-table th:nth-child(5) {
+    width: 15%;
+}
+
+.cart-table .total-sum-item {
+    text-align: right;
+}

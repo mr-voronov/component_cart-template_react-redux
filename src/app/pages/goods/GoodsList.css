@@ -1,0 +1,53 @@
+.goods-grid {
+    display: grid;
+    grid-template-columns: 
+        repeat(auto-fit, minmax(15rem, 1fr));
+    gap: .125rem;
+    padding: .25rem;
+    background-color: gainsboro;
+}
+
+.goods-item {
+    display: grid;
+    aspect-ratio: 1 / 1.5;
+    /* border: 3px solid hotpink; */
+    background-color: white;
+}
+
+.goods-item > * {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.goods-item__content {
+    margin: .5rem .5rem 2rem;
+    padding: .5rem;
+    background-color: white;
+    align-self: end;
+    box-shadow: 0 .25rem 1rem rgb(0 0 0 / .5);
+}
+
+/* allows to handle pictures of different size */
+.goods-item__img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.goods-item__title {
+    font-size: 1.25rem;
+    line-height: 1.1;
+    color: skyblue;
+}
+
+.goods-item__price {
+    font-size: 1.5rem;
+}
+
+/* experimental feature */
+@media (min-width: 60rem) {
+    .goods-item:first-child {
+        grid-row: span 2;
+        grid-column: span 2;
+    }
+}

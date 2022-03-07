@@ -1,0 +1,38 @@
+[
+    {
+        "articul": "001a",
+        "title": "Apple",
+        "cost": 25,
+        "image": "https://cdn4.iconfinder.com/data/icons/fruits-and-veggies-2/219/fruits-and-veggies-icons_apple-256.png"
+    },
+    {
+        "articul": "002l",
+        "title": "Lemon",
+        "cost": 30,
+        "image": "https://cdn4.iconfinder.com/data/icons/fruits-and-veggies-2/225/fruits-and-veggies-icons_lemon-256.png"
+    },
+    {
+        "articul": "003g",
+        "title": "Grape",
+        "cost": 30,
+        "image": "https://cdn4.iconfinder.com/data/icons/fruits-and-veggies-2/241/fruits-and-veggies-icons_grape-256.png"
+    },
+    {
+        "articul": "004k",
+        "title": "Kiwi",
+        "cost": 30,
+        "image": "https://cdn4.iconfinder.com/data/icons/fruits-and-veggies-2/180/fruits-and-veggies-icons_kiwi-256.png"
+    },
+    {
+        "articul": "05p",
+        "title": "Peach",
+        "cost": 30,
+        "image": "https://cdn4.iconfinder.com/data/icons/fruits-and-veggies-2/196/fruits-and-veggies-icons_peach-256.png"
+    },
+    {
+        "articul": "006s",
+        "title": "Strawberry",
+        "cost": 30,
+        "image": "https://cdn4.iconfinder.com/data/icons/fruits-and-veggies-2/194/fruits-and-veggies-icons_strawberry-256.png"
+    }
+]
